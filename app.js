@@ -16,7 +16,7 @@ app.use(express.json());
 // Enable CORS for all routes
 app.use(
   cors({
-    origin: ["http://localhost:3000","https://amazon-clone.onrender.com"],
+    origin: ["http://localhost:3000","https://amazon-clone-app-api.onrender.com"],
     credentials: true,
   })
 );
